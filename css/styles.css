@@ -1,0 +1,57 @@
+html {
+    box-sizing: box ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    font-family: 'Open Sans', sans-serif, Roboto,'Josefin Sans',;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.shadowcolor {
+    background-color: #e6e6ef;
+}
+
+.windowcolor {
+    background-color: #e6e6ef;
+}
+
+.flex-nav ul-horizontal {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden-section {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+
+.candas-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 77, 230)hite;
+    border: none;
+    font-size: larger;
+  }
+  
+  .candas-btn:hover,
+  .candas-btn:focus,
+  .candas-btn:active,
+  .candas-btn.active,
+  .open .dropdown-toggle.candas-btn {
+    color: rgb(10, 36, 121);
+    background-color: rgb(231, 148, 24);
+    border-color: rgb(206, 173, 26);
+  }
