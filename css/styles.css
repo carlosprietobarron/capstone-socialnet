@@ -149,9 +149,10 @@ main {
 }
 
 .blue-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 77, 230);
     width: 150px;
     height: 20px  ;
-    font-size: smaller;
 }
 
 .like-counter {
@@ -370,7 +371,7 @@ main {
 }
 
 .popularity-card {
-    max-width: 85%;
+    max-width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -388,13 +389,100 @@ main {
     display: none;
 }
 
+.filter-card {
+    max-width: 95%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.filter-card .popularity-card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-card .img-wrapper-tmb {
+    width: 20px;
+    height: 20px;
+}
+
+.filter-card .img-wrapper-tmb img{
+    display: inline-cell;
+    color: gray;
+    width: 20px;
+}
+
+.filter-card .card-footer {
+    display: none;
+}
+
+.data-frame-side {
+    height: 400px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.title {
+    font-size: .5rem;
+    color: gray;
+    margin: 1px 15px;
+}
+
+.data-box {
+    font-size: .8rem;
+    color: rgb(80, 79, 79);
+    margin: 1px 15px;
+}
+
+.button-gray {
+    align-self: center;
+}
+
+.gray-btn {
+    color: rgb(100, 100, 100);
+    background-color: #e6e6ef;
+    width: 150px;
+    height: 20px  ;
+}
+
+.comunicate-with {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.comunicate {
+    width: 75%;
+}
+
 .candas-btn {
-    color: rgb(255, 255, 255);
-    background-color: rgb(43, 77, 230);
     border: none;
     font-size: x-small;
   }
   
+  .candas-btn-gray {
+    border: none;
+    font-size: x-small;
+  }
+
   .candas-btn:hover,
   .candas-btn:focus,
   .candas-btn:active,
