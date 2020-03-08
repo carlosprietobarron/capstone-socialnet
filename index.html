@@ -6,6 +6,8 @@
     <title>Swipex</title>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Lato:300i|Open+Sans|Open+Sans+Condensed:300|Roboto:300&display=swap" 
                   rel="stylesheet">
+                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 
 <!--     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -16,116 +18,207 @@
 <body>
     <header>
         <div class="location">
-
+            <span><i class="fa fa-crosshairs"></i></span>
+            <p class="location">&nbsp; Location:&nbsp; <strong class="blkfnt">CDMX</strong </p>
         </div>
-        <div class="swipex-logo"></div>
-        <div class="nav-bar">
+        <div class="swipex-logo">
+            <img src="./img/logo.png" alt="swipexlogo">
+        </div>
+        <div class="nav-bar-top">
+            <ul>
+                <li>
+                    <a href="#"><i class="fa fa-list-alt"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-align-justify" aria-hidden="true"></i></a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+                </li>
 
+            </ul>
         </div>
     </header>
-    <main>
+    <div class="blanc-height"></div>
+    <main class="windowcolor">
         <section class="left-side-dsk">
             <div class="current-usr-card">
                 <div class="card-header">
                     <div class="img-wrapper-tmb">
-                        <img src="" alt="usr-photo">
+                        <img src="./img/50x50.jpg" alt="usr-photo">
                     </div>
                     <div class="crnt-usr-data">
-                        <p class="name_sm">Carlos Prieto</p><br>
-                        <span class="status-sm">Status: Free-lance</span>
+                        <div class="card-sm-name"><p>Carlos Prieto</p></div>
+                        <div class="card-sm-status"><span class="status-sm">Status: Free-lance</span></div>
                     </div>
                 </div>
                 <div class="card-footer">
                     <div class="like-counter">
-
+                        <span><i class="fa fa-heart"></i></span>
+                        <span id="likes-cnt">257</span>
                     </div>
                     <div class="button-blue">
-
+                        <button class="candas-btn blue-btn">Get Premium</button>
                     </div>
                 </div>
             </div>
-            <div class="menu-wrapper">
+            <div class="blanc-height windowcolor"></div>
+            <div class="menu-wrapper windowcolor">
                 <nav class="flex-nav vertical-menu">
                     <ul class="nav-items">
                         <li class="nav-item">
-                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>item</a>
+                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Begin Encounters</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>item</a>
+                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;People Nearby</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>item</a>
+                            <div class="nav-wrapper">
+                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Live channels</a>
+                            <div class="channel-count"><span>12</span></div>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>item</a>
+                            <div class="nav-wrapper">
+                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Messages</a>
+                            <div class="box-count"><span>37</span></div>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>item</a>
+                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Featured people</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>item</a>
+                            <div class="nav-wrapper">
+                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Gifts</a>
+                            <div class="box-count"><span>24</span></div>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>item</a>
+                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Rating of popularity</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>item</a>
+                            <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Dayly tasks</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </section>
-        <section class="carrousel photo-view">
-            <div class="user-nav">
+        <section class="carrousel-photo-view windowcolor">
+            <div class="user-nav windowcolor">
                 <ul class="user-list">
                     <li>
                         <a href="">
-                            <img src="" alt=""><span>|</span>
+                        <div class="img-wrapper-tmb">
+                            <img src="./img/50x50.jpg" alt="usr-photo">
+                        </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="empty-spc"> | </div>
+                    </li>
+                    <li>
+                        <a href="">
+                        <div class="img-wrapper-tmb">
+                            <img src="./img/50x50.jpg" alt="usr-photo">
+                        </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img-wrapper-tmb">
+                        <img src="./img/50x50.jpg" alt="usr-photo">
+                        </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                        <div class="img-wrapper-tmb">
+                            <img src="./img/50x50.jpg" alt="usr-photo">
+                        </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                        <div class="img-wrapper-tmb">
+                            <img src="./img/50x50.jpg" alt="usr-photo">
+                        </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                        <div class="img-wrapper-tmb">
+                            <img src="./img/50x50.jpg" alt="usr-photo">
+                        </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                        <div class="img-wrapper-tmb">
+                            <img src="./img/50x50.jpg" alt="usr-photo">
+                        </div>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="image-wrapper-full">
-                <img src="" alt="">
+            <div class="image-wrapper">
+                <img src="./img/photo2.png" alt="">
             </div>
             <div class="overlay">
                 <div class="button-list">
-                    <div class="btn-item-arrow"></div>
+                    <div class="btn-item-arrow">
+                        <span><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+                    </div>
                     <div class="controls">
                     <ul class="btn-list">
                         <li>
                             <button>
-                                <div class="btn-item-ctrl"></div>
+                                <div class="btn-item-ctrl heartonblue">
+                                    <img src="./img/heartonblue.png" alt="heart button">
+                                </div>
                             </button>
                         </li>
                         <li>
                             <button>
-                                <div class="btn-item-ctrl"></div>
+                                <div class="btn-item-ctrl dontlike">
+                                    <img src="./img/notlike.png" alt="X button">
+                                </div>
                             </button>
                         </li>
                     </ul>
                     </div>
-                    <div class="btn-item-arrow"></div>
+                    <div class="btn-item-arrow">
+                        <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                    </div>
                 </div>
             </div>
+            <div class="overlay-topleft">
+                <span class="arrow"><i class="fa fa-location-arrow" aria-hidden="true"></i></span>
+                <span>235m</span>
+            </div>
         </section>
-        <section class="rightside">
+        <section class="right-side-dsk">
             <div class="popularity-card">
-                <div class="card-header">
+                <div class="popularity-card-header">
                     <div class="img-wrapper-tmb">
-                        <img src="" alt="usr-photo">
+                        <img src="./img/crown1.png" alt="usr-photo">
                     </div>
-                    <div class="ad-text">
-                        <p class="pupular-sm">Become the popular</p><br>
-                        <span class="status-sm">Lorem ipsum dolor sit amet.</span>
+                    <div class="crnt-usr-data">
+                        <div class="card-sm-name"><p>Become the popular</p></div>
+                        <div class="card-sm-status"><span class="status-sm">Start receiving as many messages and other things</span></div>
                     </div>
                 </div>
                 <div class="card-footer">
+                    <div class="pop-counter">
+                        <span><i class="fa fa-heart"></i></span>
+                        <span id="likes-cnt">257</span>
+                    </div>
                     <div class="button-blue">
-
+                        <button class="candas-btn blue-btn">Get Premium</button>
                     </div>
                 </div>
             </div>
+            <div class="blanc-height windowcolor"></div>
             <div class="filter">
             </div>
             <div class="data-frame-side">
