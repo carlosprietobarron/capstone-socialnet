@@ -6,6 +6,7 @@ body {
   width: 90%;
   margin: 0;
   padding: 0;
+  margin-left: calc(100% * 0.05);
   background-color: #e7e9ea;
   font-family: 'Open Sans', sans-serif, Roboto, 'Josefin Sans';
 }
@@ -83,10 +84,11 @@ header {
 }
 
 main {
-  width: 80%;
+  width: 81%;
   margin-left: calc(100% / 10);
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .menu-vertical {
@@ -97,6 +99,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 30%;
+  flex: 3;
 }
 
 .card-header {
@@ -112,7 +115,9 @@ main {
   border: solid white 1px;
   border-radius: 10px;
   width: 40px;
+  min-width:30px;
   height: 40px;
+  min-height: 30px;
   overflow: hidden;
 }
 
@@ -143,6 +148,7 @@ main {
 .current-usr-card .card-header {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .card-footer {
@@ -200,6 +206,7 @@ main {
   background-color: #ff8b66;
   border: solid 1px #ff8b66;
   border-radius: 8px;
+  text-align: center;
   color: rgb(71, 72, 73);
 }
 
@@ -220,18 +227,22 @@ main {
 .carrousel-photo-view {
   position: relative;
   display: flex;
+  flex: 1;
   flex-direction: column;
   width: 40%;
 }
 
 .user-nav {
-  background-color: #f8f9fa;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
 }
 
 .user-nav ul {
   width: 90%;
   list-style: none;
   display: flex;
+  flex: 1;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -248,14 +259,16 @@ main {
   margin-right: 12px;
   border: solid white 1px;
   border-radius: 20px;
-  width: 390px;
+  width: 100%;
   height: 520px;
   overflow: hidden;
 }
 
 .image-wrapper img {
-  width: 100%;
-}
+    max-width: 386px;
+    width: 100%;
+    min-width: 360px;
+  }
 
 .overlay {
   position: relative;
@@ -369,8 +382,10 @@ main {
 .right-side-dsk {
   display: flex;
   flex-direction: column;
+  flex: 3;
   width: 30%;
   margin-left: 10px;
+  justify-self: flex-end;
 }
 
 .popularity-card {
@@ -443,8 +458,24 @@ main {
   align-items: flex-start;
 }
 
+.person-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.location-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.locicon-wrapper img{
+    width: 20px;
+}
+
 .title {
-  font-size: .5rem;
+  font-size: 0.7rem;
   color: gray;
   margin: 1px 15px;
 }
@@ -688,4 +719,10 @@ main {
 .upload {
     background-color: #4d50bf;
     border-radius: 5px;
+}
+
+/* chat window */
+
+.hidden {
+    display: none;
 }
