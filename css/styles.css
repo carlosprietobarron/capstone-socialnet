@@ -564,6 +564,10 @@ main {
   color: gray;
 }
 
+.top-act-btns {
+    display: none;
+}
+
 .img-wrapper-noradius {
   margin-right: 12px;
   border: solid white 1px;
@@ -579,6 +583,10 @@ main {
   background-color: white;
   border: solid 1px white;
   border-bottom: solid #b3b1b129 1px;
+}
+
+.contact-item .blanc-height {
+    display: none;
 }
 
 .contact-item .card-header {
@@ -605,6 +613,15 @@ main {
   color: gray;
 }
 
+.chat-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-list .blanc-height {
+    display: none;
+}
+
 .contact-actions {
   display: flex;
   justify-content: space-around;
@@ -615,6 +632,10 @@ main {
   position: relative;
   width: 36px;
   height: 36px;
+}
+
+.act-btns {
+    display: none;
 }
 
 .contact-actions img {
