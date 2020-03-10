@@ -3,11 +3,17 @@
     display: none;
   }
   .carrousel-photo-view {
-    width: 50%;
+    width: 70%;
   }
+
+  .image-wrapper img {
+    max-width: 100%; 
+    width: 100%;
+    min-width: 360px;
+}
   .right-side-dsk {
     position: relative;
-    width: 50%;
+    width: 70%;
     margin: 0;
   }
   .user-nav {

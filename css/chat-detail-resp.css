@@ -16,6 +16,10 @@
         display: none;
     }
 
+    .chat-visible{
+        display: flex;
+    }
+
     .conv-redux-card {
         display: inline-block;
         width: 100%;
@@ -25,5 +29,13 @@
 
     .left-arrow-ico {
         width: 20px;
+    }
+
+    .chat-windows .taller {
+        height: 500px;
+    }
+
+    #inputtext {
+        width: 80%;
     }
 }
