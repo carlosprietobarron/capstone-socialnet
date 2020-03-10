@@ -1,41 +1,40 @@
 @media (max-width: 1020px) {
-    .left-side-dsk {
-      display: none;
-    }
-  
-    header
-    {
-      display: none;
-    }
+  .left-side-dsk {
+    display: none;
+  }
 
-    .contacts-chat {
-        width: 100%;
-    }
+  header {
+    display: none;
+  }
 
-    .conversation-card {
-        display: none;
-    }
+  .contacts-chat {
+    width: 100%;
+  }
 
-    .chat-visible{
-        display: flex;
-    }
+  .conversation-card {
+    display: none;
+  }
 
-    .conv-redux-card {
-        display: inline-block;
-        width: 100%;
-        height: 30px;
-        border-bottom: solid 1px #b3b1b129 
-    }
+  .chat-visible {
+    display: flex;
+  }
 
-    .left-arrow-ico {
-        width: 20px;
-    }
+  .conv-redux-card {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    border-bottom: solid 1px #b3b1b129;
+  }
 
-    .chat-windows .taller {
-        height: 500px;
-    }
+  .left-arrow-ico {
+    width: 20px;
+  }
 
-    #inputtext {
-        width: 80%;
-    }
+  .chat-windows .taller {
+    height: 500px;
+  }
+
+  #inputtext {
+    width: 80%;
+  }
 }

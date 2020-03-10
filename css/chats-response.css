@@ -9,7 +9,7 @@
   }
 
   .contacts-chat {
-      border: none;
+    border: none;
   }
 
   .chat-list {
@@ -21,43 +21,42 @@
     display: inline-block;
   }
 
-
   .contact-list {
-      width: 100%;
+    width: 100%;
   }
 
   .blanc-height {
     display: block;
     min-height: 1rem;
     background-color: #e7e9ea;
-}
+  }
 
-.contact-actions {
+  .contact-actions {
     display: none;
-}
+  }
 
-.act-btns {
+  .act-btns {
     display: inline-block;
     width: 100%;
     background-color: white;
-}
+  }
 
-.cont-actions-btns {
+  .cont-actions-btns {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-size: 1rem;
-}
+  }
 
-.nav-item a {
+  .nav-item a {
     font-size: 1.5rem;
-}
- 
-.search-user-card {
-    display: none;
-}
+  }
 
-.top-act-btns {
+  .search-user-card {
+    display: none;
+  }
+
+  .top-act-btns {
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -66,18 +65,17 @@
     height: 40px;
     justify-content: space-between;
     color: gray;
-}
+  }
 
-.top-actions-btns {
+  .top-actions-btns {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: .8rem;
-}
-
-.top-nav a{
     font-size: 0.8rem;
-}
+  }
 
+  .top-nav a {
+    font-size: 0.8rem;
+  }
 }
