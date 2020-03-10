@@ -17,18 +17,18 @@
     overflow: hidden;
   }
 
+  .blanc-height {
+    display: block;
+    min-height: 1rem;
+    background-color: #e7e9ea;
+  }
+
   .chat-list .blanc-height {
     display: inline-block;
   }
 
   .contact-list {
     width: 100%;
-  }
-
-  .blanc-height {
-    display: block;
-    min-height: 1rem;
-    background-color: #e7e9ea;
   }
 
   .contact-actions {
