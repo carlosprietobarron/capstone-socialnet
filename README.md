@@ -18,32 +18,32 @@ There are two version of this pages, one for desktop devices and the other for m
 - CSS
 - Flex-box
 
-##LINK TO THE ORIGINAL CONCEPT BY : Vlad Ermakov on Dribbble
+## LINK TO THE ORIGINAL CONCEPT BY : Vlad Ermakov on Dribbble
 
-#[Original Concept](https://dribbble.com/ermalength)
+# [Original Concept](https://dribbble.com/ermalength)
 
-##[Link to a video presentation and demo](https://www.loom.com/share/da0196b55fa740aea9b72eef7d0a9d4a)
+## [Link to a video presentation and demo](https://www.loom.com/share/da0196b55fa740aea9b72eef7d0a9d4a)
 
 
-##Here are some Screen Shots of the Desktop Version
+## Here are some Screen Shots of the Desktop Version
 
-#Contacts Page
+# Contacts Page
 ![Screenshot](scshot-index.png)
 
-#Chat Page
+# Chat Page
 ![Screenshot](scshot-chat.png)
 
-#Contact Details Page
+# Contact Details Page
 ![Screenshot](scshot-contact-data.png)
 
-##Here are some Screen Shots of the Movil Devices Version
-#Contacts Page
+## Here are some Screen Shots of the Movil Devices Version
+# Contacts Page
 ![Screenshot](scshot-index-movil.png)
 
-#Chat Page
+# Chat Page
 ![Screenshot](scshot-chat-movil.png)
 
-#Contact Details Page
+# Contact Details Page
 ![Screenshot](scshot-contact-data-movil.png)
 
 ## Live Demo
