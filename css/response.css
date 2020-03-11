@@ -1,10 +1,28 @@
 @media (max-width: 1020px) {
+  body {
+    /* min-width: 550px;
+    max-width: 780px; */
+    width: 90%;
+  }
+
+  main {
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 90%;
+    height: 100%;
+  }
+
   .left-side-dsk {
     display: none;
   }
 
   .carrousel-photo-view {
-    width: 70%;
+    min-width: 360px;
+    width: 100%;
+    max-height: 600px;
+    min-width: 360px;
+    flex: 1;
   }
 
   .image-wrapper img {
@@ -14,8 +32,14 @@
   }
 
   .right-side-dsk {
+    display: flex;
+    justify-content: start;
     position: relative;
-    width: 70%;
+    top: -85px;
+    align-self: flex-start;
+    width: 100%;
+    flex: 1;
+    min-width: 360px;
     margin: 0;
   }
 
@@ -25,11 +49,6 @@
 
   header {
     display: none;
-  }
-
-  main {
-    flex-direction: column;
-    justify-content: flex-start;
   }
 
   .popularity-card {
@@ -42,10 +61,9 @@
 
   .data-frame-side {
     padding-top: 20px;
-    position: relative;
-    top: -180px;
-    justify-content: flex-start;
+    align-self: left;
     width: 100%;
+    min-width: 362px;
     height: 30%;
   }
 

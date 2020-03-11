@@ -9,11 +9,12 @@
   }
 
   .contacts-chat {
+    width: 90%;
     border: none;
   }
 
   .chat-list {
-    height: 80%;
+    height: 100%;
     overflow: hidden;
   }
 
