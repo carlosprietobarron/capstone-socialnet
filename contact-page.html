@@ -4,24 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swipex</title>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Lato:300i|Open+Sans|Open+Sans+Condensed:300|Roboto:300&display=swap" 
-                  rel="stylesheet">
-                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/response.css">
-
-<!--     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
-
 </head>
 <body>
     <header>
         <div class="location">
             <span><i class="fa fa-crosshairs"></i></span>
-            <p class="location">&nbsp; Location:&nbsp; <strong class="blkfnt">CDMX</strong </p>
+            <p class="location">&nbsp; Location:&nbsp; <strong class="blkfnt">CDMX</strong> </p>
         </div>
         <div class="swipex-logo">
             <img src="./img/logo.png" alt="swipexlogo">
@@ -44,7 +36,9 @@
     </header>
     <div class="blanc-height"></div>
     <main class="main-content windowcolor">
+        <h1 class="hidden-headding">Social Network Swipex</h1>
         <section class="left-side-dsk">
+            <h3 class="hidden-headding">Menu Section</h3>
             <div class="current-usr-card">
                 <div class="card-header">
                     <div class="img-wrapper-tmb">
@@ -100,7 +94,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a href="#"><img src="./img/business_chart.ico" alt="local" style="width: 20px;"></i>&nbsp;&nbsp;&nbsp;Rating of popularity</a>
+                            <a href="#"><img src="./img/business_chart.ico" alt="local" style="width: 20px;">&nbsp;&nbsp;&nbsp;Rating of popularity</a>
                         </li>
                         <li class="nav-item">
                             <a href="#"><i class="fa fa-tasks"></i>&nbsp;&nbsp;&nbsp;Dayly tasks</a>
@@ -110,6 +104,7 @@
             </div>
         </section>
         <section class="carrousel-photo-view windowcolor">
+            <h3 class="hidden-headding">Contact profile photo</h3>
             <div class="user-nav windowcolor">
                 <ul class="user-list">
                     <li>
@@ -172,28 +167,28 @@
             <div class="overlay">
                 <div class="button-list">
                     <div class="btn-item-arrow">
+                        <div class="arrow-wrapper">
                         <span><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+                        </div>
                     </div>
                     <div class="controls">
-                    <ul class="btn-list">
-                        <li>
-                            <button>
-                                <div class="btn-item-ctrl heartonblue">
+                    <div class="btn-list">
+                        <div class="btn-item-ctrl heartonblue">
+                            <button >
                                     <img src="./img/heartonblue.png" alt="heart button">
-                                </div>
                             </button>
-                        </li>
-                        <li>
-                            <button>
-                                <div class="btn-item-ctrl dontlike">
+                        </div>
+                        <div class="btn-item-ctrl dontlike">
+                            <button btn-item-ctrl heartonblue>
                                     <img src="./img/notlike.png" alt="X button">
-                                </div>
                             </button>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                     </div>
                     <div class="btn-item-arrow">
+                        <div class="arrow-wrapper">
                         <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -203,6 +198,7 @@
             </div>
         </section>
         <section class="right-side-dsk">
+            <h3 class="hidden-headding">Contact data</h3>
             <div class="popularity-card">
                 <div class="popularity-card-header">
                     <div class="img-wrapper-tmb">
@@ -216,7 +212,7 @@
                 <div class="card-footer">
                     <div class="pop-counter">
                         <span><i class="fa fa-heart"></i></span>
-                        <span id="likes-cnt">257</span>
+                        <span id="pop-cnt">257</span>
                     </div>
                     <div class="button-blue">
                         <button class="candas-btn blue-btn">Get Premium</button>
@@ -236,7 +232,7 @@
                 <div class="card-footer">
                     <div class="pop-counter">
                         <span><i class="fa fa-heart"></i></span>
-                        <span id="likes-cnt">257</span>
+                        <span id="pop2-cnt">257</span>
                     </div>
                     <div class="button-blue">
                         <button class="candas-btn blue-btn">Get Premium</button>
@@ -284,6 +280,6 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <div class="blanc-height"></div>
 </body>
 </html>

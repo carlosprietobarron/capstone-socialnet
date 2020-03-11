@@ -24,7 +24,8 @@ body {
   background-color: #e7e9ea;
 }
 
-.hidden-section {
+.hidden-section,
+.hidden-headding {
   display: none;
 }
 
@@ -285,8 +286,8 @@ main {
 .btn-item-arrow span {
   display: inline-block;
   position: relative;
-  top: -13px;
-  left: -2px;
+  top: -6px;
+  left: 0;
   vertical-align: middle;
 }
 
@@ -307,6 +308,9 @@ main {
 }
 
 .btn-item-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   color: rgb(201, 197, 197);
@@ -318,6 +322,18 @@ main {
   border: solid white 1px;
   border-radius: 10px;
   z-index: 10;
+}
+
+.arrrow-wrapper {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  line-height: 0em;
+}
+
+.btn-list {
+  display: flex;
+  flex-direction: row;
 }
 
 .btn-list li {
@@ -344,6 +360,7 @@ main {
   text-align: center;
   vertical-align: middle;
   border-radius: 10px;
+  margin: 0 2px;
   z-index: 10;
 }
 
