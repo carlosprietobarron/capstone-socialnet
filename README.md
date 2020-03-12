@@ -8,7 +8,7 @@ data page with details of the contact.
 This page makes extensive and intensive use of advanced CSS Flexbox framework to create the desired 
 and attractive layout.
 
-There are two version of this pages, one for desktop devices and the other for mobil devices.
+There are two version of this pages, one for desktop devices and the other for mobile devices.
 
 
 ## Built With
@@ -36,7 +36,7 @@ There are two version of this pages, one for desktop devices and the other for m
 # Contact Details Page
 ![Screenshot](scshot-contact-data.png)
 
-## Here are some Screen Shots of the Movil Devices Version
+## Here are some Screen Shots of the Mobile Devices Version
 # Contacts Page
 ![Screenshot](scshot-index-movil.png)
 
