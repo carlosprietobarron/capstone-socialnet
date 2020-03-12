@@ -48,7 +48,7 @@ There are two version of this pages, one for desktop devices and the other for m
 
 ## Live Demo
 
-[Swipex Demo](https://rawcdn.githack.com/carlosprietobarron/capstone-socialnet/a8d20f2a0ffdac6812186e4b8020f48c0b05fbb5/index.html)
+[Swipex Demo](https://rawcdn.githack.com/carlosprietobarron/capstone-socialnet/5bf17a94b8aa47b0f2e376781218d60b71e9d641/index.html)
 
 
 
