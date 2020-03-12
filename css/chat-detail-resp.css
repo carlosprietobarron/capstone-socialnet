@@ -1,4 +1,9 @@
 @media (max-width: 1020px) {
+  main {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
   .left-side-dsk {
     display: none;
   }
@@ -28,6 +33,10 @@
 
   .left-arrow-ico {
     width: 20px;
+  }
+
+  .posts-display {
+    height: 112%;
   }
 
   .chat-windows .taller {

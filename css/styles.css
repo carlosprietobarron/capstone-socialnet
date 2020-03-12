@@ -409,11 +409,13 @@ main {
   border: solid 1px white;
   border-radius: 5px;
   padding: 7px 0;
+  margin-bottom: 1rem;
 }
 
 .popularity-card-header {
   display: flex;
   flex-direction: row;
+  padding-left: 18px;
 }
 
 .pop-counter {
@@ -429,6 +431,8 @@ main {
   background-color: white;
   border: solid 1px white;
   border-radius: 5px;
+  margin-bottom: 1rem;
+  padding-left: 5px;
 }
 
 .filter-card .popularity-card-header {
@@ -436,6 +440,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-left: 18px;
 }
 
 .filter-card .img-wrapper-tmb {
@@ -530,6 +535,10 @@ main {
 .comunicate-with {
   display: flex;
   flex-direction: row;
+}
+
+.comunicate-with .img-wrapper-tmb {
+  padding-left: 18px;
 }
 
 .comunicate {

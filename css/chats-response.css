@@ -1,4 +1,13 @@
 @media (max-width: 1020px) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    margin: 0;
+  }
+
   .left-side-dsk {
     display: none;
   }
@@ -30,6 +39,12 @@
 
   .contact-list {
     width: 100%;
+    height: 622px;
+    background-color: #e7e9ea;
+  }
+
+  .contact-item {
+    margin-bottom: 1rem;
   }
 
   .contact-actions {
