@@ -331,7 +331,7 @@ main {
   display: inline-block;
   width: fit-content;
   height: fit-content;
-  line-height: 0em;
+  line-height: 0;
 }
 
 .btn-list {
