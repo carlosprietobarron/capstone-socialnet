@@ -1,0 +1,97 @@
+@media (max-width: 1020px) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    margin: 0;
+  }
+
+  .left-side-dsk {
+    display: none;
+  }
+
+  header,
+  .chat-window {
+    display: none;
+  }
+
+  .contacts-chat {
+    width: 90%;
+    border: none;
+  }
+
+  .chat-list {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .blanc-height {
+    display: block;
+    min-height: 1rem;
+    background-color: #e7e9ea;
+  }
+
+  .chat-list .blanc-height {
+    display: inline-block;
+  }
+
+  .contact-list {
+    width: 100%;
+    height: 622px;
+    background-color: #e7e9ea;
+  }
+
+  .contact-item {
+    margin-bottom: 1rem;
+  }
+
+  .contact-actions {
+    display: none;
+  }
+
+  .act-btns {
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+  }
+
+  .cont-actions-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1rem;
+  }
+
+  .nav-item a {
+    font-size: 1.5rem;
+  }
+
+  .search-user-card {
+    display: none;
+  }
+
+  .top-act-btns {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    height: 40px;
+    justify-content: space-between;
+    color: gray;
+  }
+
+  .top-actions-btns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.8rem;
+  }
+
+  .top-nav a {
+    font-size: 0.8rem;
+  }
+}

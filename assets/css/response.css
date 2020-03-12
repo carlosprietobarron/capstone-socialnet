@@ -1,0 +1,92 @@
+@media (max-width: 1020px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  main {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-left: -10px;
+  }
+
+  .left-side-dsk {
+    display: none;
+  }
+
+  .carrousel-photo-view {
+    min-width: 360px;
+    width: 100%;
+    flex: 1;
+  }
+
+  .image-wrapper {
+    height: 75vh;
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    max-width: 900px;
+    min-width: 360px;
+  }
+
+  .right-side-dsk {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    top: -100px;
+    align-self: flex-start;
+    width: 100%;
+    flex: 1;
+    min-width: 360px;
+    margin: 0;
+  }
+
+  .user-nav {
+    display: none;
+  }
+
+  header {
+    display: none;
+  }
+
+  .popularity-card {
+    display: none;
+  }
+
+  .filter-card {
+    display: none;
+  }
+
+  .overlay {
+    top: -80px;
+  }
+
+  .data-frame-side {
+    padding-top: 10px;
+    align-self: left;
+    width: 100%;
+    min-width: 362px;
+    height: 30%;
+  }
+
+  .person-data {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .locicon-wrapper {
+    display: none;
+  }
+
+  .title {
+    font-size: 0.5rem;
+  }
+
+  .data-box {
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,49 @@
+@media (max-width: 1020px) {
+  main {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .left-side-dsk {
+    display: none;
+  }
+
+  header {
+    display: none;
+  }
+
+  .contacts-chat {
+    width: 100%;
+  }
+
+  .conversation-card {
+    display: none;
+  }
+
+  .chat-visible {
+    display: flex;
+  }
+
+  .conv-redux-card {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    border-bottom: solid 1px #b3b1b129;
+  }
+
+  .left-arrow-ico {
+    width: 20px;
+  }
+
+  .posts-display {
+    height: 112%;
+  }
+
+  .chat-windows .taller {
+    height: 500px;
+  }
+
+  #inputtext {
+    width: 80%;
+  }
+}
