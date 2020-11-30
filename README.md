@@ -1,6 +1,6 @@
 # Swipex Social Network Site
 
-> This is the Capstone project for the HTML and CSS course within the Microverse program.
+> This is a Clone of a Social Network concept by Vlad Ermakov on Dribbble.
 The objective of this project, it's to create a Social Network site with a page for listing 
 all the contacts of the user, from this page he can acces the chat window and the user (contact)
 data page with details of the contact.
