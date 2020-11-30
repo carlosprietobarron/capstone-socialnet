@@ -57,8 +57,8 @@ There are two version of this pages, one for desktop devices and the other for m
 👤 Carlos Prieto Barron
 
 - Github: [@carlosprietobarron](https://github.com/carlosprietobarron)
-
-👤 
+- Linkedin: [Carlos Prieto](https://www.linkedin.com/in/carlosprietobarron/)
+- Email: [Carlos Prieto Barrón](carloprietobarron@outlook.com)
 
 
 ## 🤝 Contributing
